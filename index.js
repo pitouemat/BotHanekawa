@@ -1,6 +1,6 @@
 const { Client, Intents, MessageAttachment, Message } = require('discord.js');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] })
-const token = "ODc3MzE5MjMyNDI4MzE4Nzgx.YRw5NA.9683Ai2F_pxcRzNwuc3CTr1qITM";
+const token = "";
 const fetch = require('node-fetch');
 
 client.on("message", (msg) => {
